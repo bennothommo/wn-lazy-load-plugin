@@ -3,7 +3,7 @@
 return [
     'plugin' => [
         'name' => 'Lazy Load',
-        'description' => 'Lazy load images by default in October CMS',
+        'description' => 'Lazy load images by default in Winter CMS',
     ],
     'fields' => [
         'lazyLoad' => [

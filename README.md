@@ -1,6 +1,6 @@
 # Lazy Loading plugin
 
-Makes October CMS pages lazy-load images by default. This uses the `loading="lazy"` attribute that is available as part
+Makes Winter CMS pages lazy-load images by default. This uses the `loading="lazy"` attribute that is available as part
 of the [HTML Living Standard](https://html.spec.whatwg.org/multipage/urls-and-fetching.html#lazy-loading-attributes) and
 is [available in all modern browsers](https://caniuse.com/?search=loading), except Safari, since early 2020.
 

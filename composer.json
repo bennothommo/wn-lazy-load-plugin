@@ -1,8 +1,8 @@
 {
-    "name": "bennothommo/oc-lazyload-plugin",
-    "description": "Lazy load images by default in October CMS",
-    "type": "october-plugin",
-    "keywords": ["october", "plugin", "cms", "lazy", "loading", "images"],
+    "name": "bennothommo/wn-lazy-load-plugin",
+    "description": "Lazy load images by default in Winter CMS",
+    "type": "winter-plugin",
+    "keywords": ["winter", "plugin", "cms", "lazy", "loading", "images"],
     "license": "MIT",
     "authors": [
         {
