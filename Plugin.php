@@ -68,7 +68,7 @@ class Plugin extends PluginBase
 
         // Process images on loading page
         Event::listen('cms.page.postprocess', function ($controller, $url, $page, $dataHolder) {
-            $lazyLoad = (bool) $page->lazy_load ?? true;
+            $lazyLoad = (bool) ($page->lazy_load ?? true);
             if ($lazyLoad) {
                 $this->applyLazyLoading($dataHolder);
             }
@@ -86,7 +86,7 @@ class Plugin extends PluginBase
     protected function applyLazyLoading($dataHolder)
     {
         $dom = new HTML5DOMDocument();
-        $dom->loadHTML($dataHolder->content);
+        $dom->loadHTML($dataHolder->content, HTML5DOMDocument::ALLOW_DUPLICATE_IDS);
 
         // Find all images
         $images = $dom->querySelectorAll('img');
