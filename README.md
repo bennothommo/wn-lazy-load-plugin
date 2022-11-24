@@ -1,3 +1,10 @@
+**Please note that this plugin has been abandoned.**<br>
+It was done as a proof-of-concept, and was not thoroughly tested. It has been reported that it breaks AJAX queries, and I feel it's best suited for theme developers to apply lazy loading in a pragmatic way in theit theme, as opposed to using a plugin to blindly add it to all images. Please feel free to fork and continue working on this plugin if you find it useful.
+
+---
+<br>
+
+
 # Lazy Loading plugin
 
 Makes Winter CMS pages lazy-load images by default. This uses the `loading="lazy"` attribute that is available as part
