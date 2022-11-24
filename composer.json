@@ -17,5 +17,6 @@
     },
     "extra": {
         "installer-name": "lazyload"
-    }
+    },
+    "abandoned": true
 }
